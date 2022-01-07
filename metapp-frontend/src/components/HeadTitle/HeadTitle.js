@@ -2,7 +2,7 @@ import './HeadTitle.css'
 
 
 function HeadTitle(){ 
-    return <h2>Meta</h2>
+    return <p className='MainTitle'>Meta</p>
 } 
 
 export default HeadTitle
