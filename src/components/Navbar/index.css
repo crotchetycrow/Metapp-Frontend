@@ -1,0 +1,28 @@
+.navbar {
+  width: 100vw;
+  height: 5vh;
+  background-color: grey;
+}
+
+.navbar_interior {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_items {
+  display: flex;
+  list-style: none;
+  white-space: nowrap;
+  padding-right: 1em;
+}
+
+.navbar_link {
+  display: inline-block;
+  text-decoration: none;
+  color: blue;
+  font-weight: 700;
+}
