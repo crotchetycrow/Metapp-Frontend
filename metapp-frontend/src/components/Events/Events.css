@@ -1,0 +1,21 @@
+.Events{
+    width: 100%; 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+} 
+
+.EventTitleCon{
+    width: 100%; 
+    height: 70px;  
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start;
+} 
+
+.EventTitleCon p{
+    margin-left: 60px; 
+    font-size: 20px; 
+    color: palevioletred;
+}

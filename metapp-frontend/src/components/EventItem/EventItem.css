@@ -1,0 +1,20 @@
+.EventItem{
+    width: 280px; 
+    margin: 10px 5px; 
+    box-shadow: 2px 2px 2px 2px lightgray; 
+    border-radius: 10px; 
+    padding: 10px;
+} 
+
+.description{
+    text-align: justify;
+} 
+
+.title{
+    margin-top: 5px; 
+    font-size: 18px;
+} 
+
+.des{
+    color: palevioletred;
+}
