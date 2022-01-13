@@ -1,0 +1,32 @@
+.MainNavBar{
+    width: 100%; 
+    height: 90px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    box-shadow: 2px 2px 2px lightgray;
+} 
+
+.MainNavTitle{
+    margin: 0px 40px;
+}  
+
+.MainNavTitle p{
+    font-size: 26px; 
+    color: palevioletred;
+} 
+
+.MainNavLinks{
+    margin: 0px 40px;
+} 
+ 
+.MainNavLinks button{
+    margin: 0px 15px; 
+    padding: 10px; 
+    border-radius: 20px; 
+    border: 2px palevioletred solid; 
+    background-color: palevioletred; 
+    color: white;
+}
+
+
