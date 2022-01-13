@@ -1,0 +1,7 @@
+// Dummy data for the app.
+
+const EventsData = [{'id': '1', 'event': ['London Eye', "The London Eye, or the Millennium Wheel, is a cantilevered observation wheel on the South Bank of the River Thames in London. It is Europe's tallest cantilevered observation wheel, and is the most popular paid tourist attraction in the United Kingdom with over 3 million visitors annually."], 'reviewDate': [{'stars': '4.5', 'reviews': '133, 444'}], 'links': 'https://www.londoneye.com/'}, 
+{'id': '1', 'event': ['London Eye', "The London Eye, or the Millennium Wheel, is a cantilevered observation wheel on the South Bank of the River Thames in London. It is Europe's tallest cantilevered observation wheel, and is the most popular paid tourist attraction in the United Kingdom with over 3 million visitors annually."], 'reviewDate': [{'stars': '4.5', 'reviews': '133, 444'}], 'links': 'https://www.londoneye.com/'}, 
+{'id': '1', 'event': ['London Eye', "The London Eye, or the Millennium Wheel, is a cantilevered observation wheel on the South Bank of the River Thames in London. It is Europe's tallest cantilevered observation wheel, and is the most popular paid tourist attraction in the United Kingdom with over 3 million visitors annually."], 'reviewDate': [{'stars': '4.5', 'reviews': '133, 444'}], 'links': 'https://www.londoneye.com/'}] 
+
+export default EventsData

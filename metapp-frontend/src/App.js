@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css';  
+import { useState } from 'react'
+import NavBar from './components/NavBar/NavBar'  
+import Events from './components/Events/Events' 
+import EventsData from './components/Data/DummyData';
 
-function App() {
+function App() {    
+
+  const [Data, setData] = useState(EventsData)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>   
+      <Events data={Data}/>
     </div>
+
   );
 }
 
