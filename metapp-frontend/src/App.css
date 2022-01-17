@@ -1,5 +1,12 @@
 .App{
   margin: 0;
   padding: 0;
-} 
+}  
 
+p{
+  color: black;
+}
+
+.footer a{
+  color: pink;
+}
