@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 function NavBar(props){   
 
-    const [pages, setpages] = useState()
+    const [pages, setpages] = useState(true)
 
     function callAbout(){  
         pages ? setpages(false) : setpages(true)
@@ -17,7 +17,7 @@ function NavBar(props){
                 <p>Meta</p>
             </div> 
             <div className="MainNavLinks">
-                <button onClick={callAbout}>{pages ? 'About' : 'Events'}</button> 
+                <button onClick={callAbout}>{!pages ? 'About' : 'Events'}</button> 
                 <button>Contact</button>
             </div> 
         </div>

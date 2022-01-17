@@ -16,7 +16,8 @@ function App() {
 
   const [newFooter, setFooter] = useState('Meta version 1.0.0')    
 
-  const [pages, setpages] = useState(false) 
+  const [pages, setpages] = useState(false)  
+  
   function ShowAboutPage(e){ setpages(e) }
 
   return (
